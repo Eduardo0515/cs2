@@ -78,7 +78,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'hugodb',
         'USER': 'postgres',
-        'PASSWORD': 'password',
+        'PASSWORD': 'hugo12345',
         'HOST': 'database-1.cwpu061kbeqw.us-east-1.rds.amazonaws.com',
         'PORT': '5432'
 

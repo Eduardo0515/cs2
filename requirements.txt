@@ -26,3 +26,4 @@ urllib3==1.24.3
 whitenoise==4.1.2
 markdown
 django-filter
+django-rest-swagger

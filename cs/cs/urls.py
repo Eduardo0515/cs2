@@ -42,5 +42,7 @@ urlpatterns = [
     re_path(r'^',include(router.urls)),
     re_path(r'^api/v1/',include('Login.urls')),
     re_path(r'^api/v2/',include('Profile.urls')),
-    re_path(r'api_doc/',schema_view),
+    path(r'api_doc/',schema_view),
+     
+    #url(r'^s$', schema_view),
 ]

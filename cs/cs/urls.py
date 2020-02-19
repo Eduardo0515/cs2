@@ -40,9 +40,8 @@ schema_view = get_swagger_view(title='Swagger Docs')
 urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^',include(router.urls)),
-    re_path(r'^api/v1/',include('Login.urls')),
-    re_path(r'^api/v2/',include('Profile.urls')),
-    path(r'api_doc/',schema_view),
-     
+    re_path(r'^appiLog/v1/',include('Login.urls')),
+    re_path(r'^appiProf/v2/',include('Profile.urls')),
+    path(r'api_do/',schema_view),    
     #url(r'^s$', schema_view),
 ]
